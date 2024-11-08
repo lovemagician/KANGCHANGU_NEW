@@ -1,0 +1,49 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  translate: 0 30px;
+  margin-bottom: 45px;
+}
+
+.main_wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.mainImageBefore,
+.mainImageAfter {
+  min-width: 300px;
+  width: 360px;
+}
+
+.mainImageAfter {
+  opacity: 0;
+  position: absolute;
+  inset: 0;
+  transition: opacity 0.5s linear;
+}
+
+.mainImageAfter:hover {
+  opacity: 1;
+}
+
+.hello {
+  position: absolute;
+  bottom: -25px;
+  border-right: 2px solid white;
+  animation: blink 0.8s infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 19px;
+  pointer-events: none;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

@@ -1,0 +1,50 @@
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: auto;
+  /* translate: -5px -5px; */
+  height: auto;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.footer_wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  /* width: 200; */
+}
+
+.footer_name {
+  width: 50px;
+  margin-left: 15px;
+  pointer-events: none;
+}
+
+.footer_icon {
+  margin-right: 15px;
+  width: 42px;
+  transition: all 0.5s linear;
+}
+
+.footer a img {
+  display: block;
+  width: 100%;
+  opacity: 0.8;
+  transition: all 0.5s linear;
+}
+
+.footer a img:hover {
+  opacity: 1;
+}
+
+.footer a:focus-visible {
+  outline: solid 1px white;
+}
+
+.footer a:focus:not(:focus-visible) {
+  outline: none;
+}

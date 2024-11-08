@@ -1,0 +1,16 @@
+.container {
+  flex-direction: column;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+.errorMessage {
+  font-size: 48px;
+  color: aqua;
+}

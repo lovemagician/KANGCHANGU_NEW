@@ -1,0 +1,30 @@
+.albumInfo {
+  width: 360px;
+  margin-bottom: 15px;
+}
+
+.albumInfo:last-child {
+  margin-bottom: 0px;
+}
+
+.albumTitle {
+  font-size: 24px;
+  margin-bottom: 1px;
+}
+
+.releaseDate {
+  font-size: 12px;
+}
+
+.trackList {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.credits {
+  font-size: 14px;
+}
+
+.youtube {
+  margin-bottom: 5px;
+}

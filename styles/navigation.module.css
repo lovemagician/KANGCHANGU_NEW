@@ -1,0 +1,43 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  z-index: 99;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.navbar::before {
+  content: "";
+  background-image: url("/images/background.webp");
+  background-size: contain;
+  position: absolute;
+  opacity: 0.8;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+}
+
+.navbar_list {
+  box-sizing: border-box;
+  opacity: 0.8;
+  transition: all 0.5s linear;
+}
+
+.navbar_list:hover {
+  /* color: gold !important; */
+  opacity: 1;
+}
+
+.navbar_list:focus-visible {
+  outline: solid 1px white;
+}
+
+.navbar_list:focus:not(:focus-visible) {
+  outline: none;
+}

@@ -1,0 +1,39 @@
+@import "./reset.css";
+
+body {
+  background-color: #b0b0b0;
+  background-image: url("/images/background.webp");
+  background-size: contain;
+  background-position: center;
+  color: white;
+  min-width: 320px;
+  font-family: "neoDunggeunmo", sans-serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+@font-face {
+  font-family: "neoDunggeunmo";
+  src: url("/fonts/neodgm.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  overflow-y: scroll;
+}
+.wrapper::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}

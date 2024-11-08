@@ -1,0 +1,9 @@
+.imageBox {
+  cursor: pointer;
+}
+
+.image {
+  display: block;
+  height: 116.66px;
+  object-fit: cover;
+}
