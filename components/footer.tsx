@@ -16,6 +16,9 @@ export default function Footer() {
           <a className={styles.footer_icon} href="https://www.instagram.com/rkdcksrn/" target="_blank">
             <Image width={42} height={42} src="/images/Instagram_icon.webp" alt="instagram" />
           </a>
+          <a className={styles.footer_icon} href="https://kangchangu.bandcamp.com/" target="_blank">
+            <Image width={42} height={42} src="/images/bandcamp_icon.webp" alt="bandcamp" />
+          </a>
         </div>
       </footer>
     </>
