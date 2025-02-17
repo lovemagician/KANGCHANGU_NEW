@@ -8,6 +8,9 @@ export default function Picture() {
       imageSrc: "/images/KANGCHANGU.webp",
     },
     {
+      imageSrc: "/images/photo_CD1.webp",
+    },
+    {
       imageSrc: "/images/drawing_hill.webp",
     },
     {
@@ -33,9 +36,6 @@ export default function Picture() {
     },
     {
       imageSrc: "/images/photo_leaves2.webp",
-    },
-    {
-      imageSrc: "/images/photo_tree.webp",
     },
     {
       imageSrc: "/images/photo_leaves1.webp",
