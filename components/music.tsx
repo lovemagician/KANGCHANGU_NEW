@@ -9,7 +9,7 @@ export default function Music() {
       coverSrc: "/images/helloWorld.webp",
       trackList: ["01.의식", "02.대화", "03.마음의 하루", "04.구름", "05.거울", "06.고집", "07.나무 아래"],
       credits: ["Produced, Written, Performed, Mixed, Album Cover by 강찬구", "Mastered by 강경덕 @lamp sound"],
-      youtubeLink1: "https://www.youtube.com/embed/99vFH-dL7L0?si=6Olb5V9l88bf_itY",
+      youtubeLink1: "https://www.youtube.com/embed/Or-7S4U6C_E?si=ylSxATuGJLpZ-cTo",
     },
     {
       title: "rkdcksrn",
