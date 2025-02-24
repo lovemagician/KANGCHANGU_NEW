@@ -4,6 +4,14 @@ import styles from "../styles/music.module.css";
 export default function Music() {
   const albumData = [
     {
+      title: "Hello, World!",
+      releaseDate: "2025.02.24",
+      coverSrc: "/images/helloWorld.webp",
+      trackList: ["01.의식", "02.대화", "03.마음의 하루", "04.구름", "05.거울", "06.고집", "07.나무 아래"],
+      credits: ["Produced, Written, Performed, Mixed, Album Cover by 강찬구", "Mastered by 강경덕 @lamp sound"],
+      youtubeLink1: "https://www.youtube.com/embed/99vFH-dL7L0?si=6Olb5V9l88bf_itY",
+    },
+    {
       title: "rkdcksrn",
       releaseDate: "2022.12.20",
       coverSrc: "/images/rkdcksrn.webp",
