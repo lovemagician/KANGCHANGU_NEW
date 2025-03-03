@@ -18,6 +18,9 @@ export default function Navigation() {
       <Link prefetch className={styles.navbar_list} style={getLinkStyle("/music")} href="/music">
         MUSIC
       </Link>
+      <Link prefetch className={styles.navbar_list} style={getLinkStyle("/shop")} href="/shop">
+        SHOP
+      </Link>
       <Link prefetch className={styles.navbar_list} style={getLinkStyle("/picture")} href="/picture">
         PICTURE
       </Link>

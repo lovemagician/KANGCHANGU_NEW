@@ -8,11 +8,12 @@ export default function Picture() {
       imageSrc: "/images/KANGCHANGU.webp",
     },
     {
-      imageSrc: "/images/photo_CD1.webp",
-    },
-    {
       imageSrc: "/images/drawing_hill.webp",
     },
+    {
+      imageSrc: "/images/city.webp",
+    },
+
     {
       imageSrc: "/images/drawing_paperboat.webp",
     },
