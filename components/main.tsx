@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Main() {
   useEffect(() => {
-    const content = "2025.02.24. 앨범 발매!";
+    const content = "2026.06.30. 앨범 발매!";
     const text = document.querySelector(".hello");
     let index = 0;
 

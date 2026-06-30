@@ -4,11 +4,19 @@ import styles from "../styles/music.module.css";
 export default function Music() {
   const albumData = [
     {
+      title: "오늘의 구름",
+      releaseDate: "2026.06.30",
+      coverSrc: "/images/cloudsoftoday.webp",
+      trackList: ["01.색안경", "02.아침", "03.바다와 사람들", "04.조각된 내 마음", "05.침묵", "06.두근두근", "07.기분", "08.지구", "09.감사"],
+      credits: ["Produced, Written, Performed, Mixed, Designed by 강찬구", "Mastered by 강경덕 @lamp sound"],
+      youtubeLink1: "https://www.youtube.com/embed/qIfx7ZCVmik?si=M1a6uY0BPyfsG9UG",
+    },
+    {
       title: "Hello, World!",
       releaseDate: "2025.02.24",
       coverSrc: "/images/helloWorld.webp",
       trackList: ["01.의식", "02.대화", "03.마음의 하루", "04.구름", "05.거울", "06.고집", "07.나무 아래"],
-      credits: ["Produced, Written, Performed, Mixed, Album Cover by 강찬구", "Mastered by 강경덕 @lamp sound"],
+      credits: ["Produced, Written, Performed, Mixed, Designed by 강찬구", "Mastered by 강경덕 @lamp sound"],
       youtubeLink1: "https://www.youtube.com/embed/Or-7S4U6C_E?si=ylSxATuGJLpZ-cTo",
     },
     {

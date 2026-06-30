@@ -8,6 +8,10 @@ export default function Shop() {
     <div className={styles.shopWrapper}>
       <div className={styles.container}>
         <div>
+          <p>오늘의 구름</p>
+          <Image src={"/images/cloudsOfToday-CD.webp"} alt="오늘의 구름 CD" width={360} height={360} />
+        </div>
+        <div>
           <p>Hello, World!</p>
           <Image src={"/images/helloWorld-CD.webp"} alt="Hello, World! CD" width={360} height={360} />
         </div>

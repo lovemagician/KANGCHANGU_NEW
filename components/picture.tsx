@@ -13,33 +13,34 @@ export default function Picture() {
     {
       imageSrc: "/images/city.webp",
     },
+    {
+      imageSrc: "/images/photo_nightsky.webp",
+    },
+    {
+      imageSrc: "/images/photo_bluebuilding.webp",
+    },
 
     {
-      imageSrc: "/images/drawing_paperboat.webp",
+      imageSrc: "/images/photo_nightsea.webp",
     },
     {
-      imageSrc: "/images/photo_kancho.webp",
+      imageSrc: "/images/photo_bulbul.webp",
     },
     {
-      imageSrc: "/images/photo_bami-and-kancho.webp",
+      imageSrc: "/images/photo_kancho1.webp",
     },
     {
-      imageSrc: "/images/photo_danswithme.webp",
+      imageSrc: "/images/photo_jeongokport.webp",
     },
     {
-      imageSrc: "/images/photo_sea.webp",
+      imageSrc: "/images/photo_flowers.webp",
     },
     {
-      imageSrc: "/images/photo_sun.webp",
+      imageSrc: "/images/photo_sunset.webp",
     },
+
     {
-      imageSrc: "/images/photo_lake.webp",
-    },
-    {
-      imageSrc: "/images/photo_leaves2.webp",
-    },
-    {
-      imageSrc: "/images/photo_leaves1.webp",
+      imageSrc: "/images/photo_tomatoes.webp",
     },
   ];
   return (
